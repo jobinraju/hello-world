@@ -1,0 +1,24 @@
+#include <iostream>
+#incldue <cmath>
+
+using namespace std;
+
+int main()
+{
+
+char input;
+
+do
+{
+
+
+cout<<"Try again?(y/n)"<<endl;
+cin>>input;
+
+}
+while(input=='y');
+
+return 0;
+
+}
+
